@@ -1,0 +1,79 @@
+<!--
+
+Columns for Small Screen Devices
+
+Following is the list of column level styles for small screen devices typically smart phones.
+Class Name	Description
+s1	Defines 1 of 12 columns with width as 08.33%.
+s2	Defines 2 of 12 columns with width as 16.66%.
+s3	Defines 3 of 12 columns with width as 25.00%.
+s4	Defines 4 of 12 columns with width as 33.33%.
+s5 - s11	 
+s12	Defines 12 of 12 columns with width as 100%. Default class for small screen phones.
+Columns for Medium Screen Devices
+
+Following is the list of column level styles for medium screen devices typically tablets.
+Class Name	Description
+m1	Defines 1 of 12 columns with width as 08.33%.
+m2	Defines 2 of 12 columns with width as 16.66%.
+m3	Defines 3 of 12 columns with width as 25.00%.
+m4	Defines 4 of 12 columns with width as 33.33%.
+m5 - m11	 
+m12	Defines 12 of 12 columns with width as 100%. Default class for medium screen phones.
+Columns for Large Screen Devices
+
+Following is the list of column level styles for large screen devices typically laptops.
+Class Name	Description
+l1	Defines 1 of 12 columns with width as 08.33%.
+l2	Defines 2 of 12 columns with width as 16.66%.
+l3	Defines 3 of 12 columns with width as 25.00%.
+l4	Defines 4 of 12 columns with width as 33.33%.
+l5 - l11	 
+l12	Defines 12 of 12 columns with width as 100%. Default class for large screen devices.
+
+<div class="w3-row">
+   <div class="w3-col s2 m4 l3">
+      <p>This text will use 2 columns on a small screen, 4 on a medium screen, and 3 on a large screen.</p>
+   </div>
+</div>
+
+
+-->
+
+
+<html>
+   <head>
+      <title>The W3 CSS Grids DEMO</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+   </head>
+   <body> 
+     
+         <header class="w3-container w3-teal">   
+            <h2>My First Mobile Design Demo</h2>  
+            <p class="w3-large">Resize the window to see the effect!</p>			
+         </header>   
+         <div class="w3-row">
+            <div class="w3-col m1 w3-center w3-grey">1</div>
+            <div class="w3-col m1 w3-center">2</div>
+            <div class="w3-col m1 w3-center w3-grey">3</div>
+            <div class="w3-col m1 w3-center">4</div>
+            <div class="w3-col m1 w3-center w3-grey">5</div>
+            <div class="w3-col m1 w3-center">6</div>
+            <div class="w3-col m1 w3-center w3-grey">7</div>
+            <div class="w3-col m1 w3-center">8</div>
+            <div class="w3-col m1 w3-center w3-grey">9</div>
+            <div class="w3-col m1 w3-center">10</div>
+            <div class="w3-col m1 w3-center w3-grey">11</div>
+            <div class="w3-col m1 w3-center">12</div>
+         </div>
+         <div class="w3-row">
+            <div class="w3-col w3-container m4 l3 w3-yellow">
+               <p>This text will use 12 columns on a small screen, 4 on a medium screen (m4), and 3 on a large screen (l3).</p>
+            </div>
+            <div class="w3-col w3-container s4 m8 l9">  
+               <p>This text will use 4 columns on a small screen (s4), 8 on a medium screen (m8), and 9 on a large screen (l9).</p>
+         </div>
+         </div>
+   </body>
+</html>

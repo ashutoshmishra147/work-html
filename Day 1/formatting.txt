@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML <small>Small</small> Formatting</h2>
+<p>This text is normal.</p>
+
+<p>
+
+<b>This text is <i>bold</i> & <em>Emphasised</em> </b>
+<strong>This text is strong.</strong> 
+<i>This text is italic.</i>
+
+<p>This text is normal.</p>
+<em>This <strong>text</strong> is emphasized.</em>
+
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+
+<p>The del element represents deleted (removed) text.</p>
+
+<p>My favorite color is <del>blue</del> red.</p>
+
+=-=-=-=-=-
+
+<p>The ins element represent inserted (added) text.</p>
+
+<p>My favorite <ins>color</ins> is red.</p>
+-=-=-=-=-=-=-=-
+
+€€€€€€€€€<p>
+The del element represent deleted (removed) text.
+The ins element represent inserted (added) text.
+</p>
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+$$$$$$$
+h2O
+This is <sub>subscripted</sub> text.
+E=MC2
+<p>This is <sup>superscripted</sup> text.</p>
+-=0-0=0==-=-
+
+
+
+
+</p>
+
+</body>
+</html>

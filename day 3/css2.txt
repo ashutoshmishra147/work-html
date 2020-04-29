@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+    text-align: center;
+    color: red;
+#para2 {
+    color: green;
+    text-align: center;
+} 
+.center {
+    text-align: center;
+    
+}
+</style>
+</head>
+<body>
+<h1 class="center">Green and center-aligned heading</h1>
+<p id="para1" class="center">This paragraph has CSS style.!</p>
+<p id=''para2" class="center">This paragraph is not affected by the style.</p>
+
+</body>
+</html>

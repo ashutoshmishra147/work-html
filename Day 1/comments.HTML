@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- This is a comment -->
+<p>This is a paragraph.</p>
+<!-- Comments are not displayed in the browser -->
+
+-=-=-=-
+
+conditional commments
+<!--[if IE 5]>This is IE 5<br><![endif]-->
+<!--[if IE 6]>This is IE 6<br><![endif]-->
+<!--[if IE 7]>This is IE 7<br><![endif]-->
+<!--[if IE 8]>This is IE 8<br><![endif]-->
+<!--[if IE 9]>This is IE 9<br><![endif]-->
+=-=-=-=-=-
+
+var element
+
+<p>Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>.</p>
+==-=-
+
+
+preserving white spaces
+
+
+<p>The code element does not preserve whitespace and line-breaks.</p>
+<p>To fix this, you can put the code element inside a pre element:</p>
+
+<pre>
+t	h	is 	is 	w  h	ite sp   ac  e
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+</pre>
+
+=-=-=-=-=-
+
+
+<p>Programming code example:</p>
+
+<code>
+var x = 5;
+var y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</code>
+
+=-=-=-=
+
+<p>The samp element represents sample output from a computer program:</p>
+
+<samp>
+demo.example.com login: Apr 12 09:10:17
+Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189
+</samp>
+
+
+
+</body>
+</html>

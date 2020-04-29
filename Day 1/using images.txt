@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="\\10.128.32.91\Assignments\22nd Oct'18 JAVA-Airoli\HTML\Day 1\img.png" alt="syntel logo" width="104" height="142">
+
+</body>
+</html>

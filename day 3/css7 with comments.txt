@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+    color: "blue";
+    /* This is a single-line comment */
+    text-align: center;
+} 
+
+/* This is
+a multi-line
+comment */
+</style>
+</head>
+<body>
+
+<p class="center">Hello World!</p>
+<p class="center">This paragraph is styled with CSS.</p>
+<p class="center">CSS comments are not shown in the output.</p>
+
+</body>
+</html>

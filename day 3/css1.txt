@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#p1 {
+    color: red;
+    text-align: center;
+} 
+#p2{
+    color: blue;
+    text-align: center;
+} 
+</style>
+</head>
+<body>
+
+<p id="p1">Hey there!</p>
+<p id="p2">Hey there!</p>
+<p>This paragraph is styled using my first CSS.</p>
+
+</body>
+</html>
